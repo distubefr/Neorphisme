@@ -19,6 +19,7 @@ body
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: #333;
+    border-radius: 50px;
+    background: #333;
     box-shadow: 5px 5px 10px #202020, -5px -5px 10px #464646;
 }
