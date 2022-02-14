@@ -1,0 +1,24 @@
+/* Dans le css, il aura le body avec un fond gris */
+body
+{
+    background: #333;
+}
+/* Ensuite, il aura la classe btn pour faire la forme de boutton */
+.btn
+{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    width: 200px;
+    height: 200px;
+    font-size: 60px;
+    outline: none;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: #333;
+    box-shadow: 5px 5px 10px #202020, -5px -5px 10px #464646;
+}
